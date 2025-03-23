@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poller+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poller One", serif;
+  /* border: 1px red solid; */
+ 
+
+ 
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
+  color: azure;
+  font-size: 45px;
+  margin: 10px;
+}
+.links ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  color: aliceblue;
+  font-size: 18px;
+}
+.links a {
+  text-decoration: none;
+  color: rgb(164, 201, 233);
+}
+
+.links a:hover{
+ color: cadetblue;
+
+}
+
+
+.hero{
+    background-color: #1f2937;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    width: auto;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    width: 650px;
+    height: auto;
+}
+.right{
+  display: flex;  
+    
+}
+
+
+.hero-img{
+    margin: 15px;
+    padding: 5px;
+    width: 600px;
+    height: auto;
+}
+.hero-img img{ 
+    height: 100%;
+    width: 100%;
+    object-fit:fill;
+    border: 3px rgb(41, 117, 218) solid;
+}
+
+
+.hero-title{
+    font-size: 34px;
+}
+
+.hero-text{
+    font-size: 18px;
+}
+
+.hero-button button{
+    width: 100px;
+    height: 35px;
+    background-color: #00c3ff;
+    border-radius: 10%;
+    border: #00c3ff 3px solid;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.hero-button button:hover{
+background-color: rgb(54, 178, 187);
+border: #eef5ff 2px solid;
+color: rgb(255, 255, 255);
+
+
+}
+
+
+
